@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-19T13:44:16.779Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="2_9J__BjEUJmWOoW8sxs" version="20.8.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-19T17:34:03.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TSnaRrwX1vByZdkGF_Tc" version="20.8.7" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="750" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="525" dy="275" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -33,16 +33,17 @@
         <mxCell id="4D6YyWOy4u3c2OcfM5rZ-4" value="Draw two cards for user and computer each." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="395" y="220" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4D6YyWOy4u3c2OcfM5rZ-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4D6YyWOy4u3c2OcfM5rZ-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="760" y="470" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="4D6YyWOy4u3c2OcfM5rZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="4D6YyWOy4u3c2OcfM5rZ-7" target="4D6YyWOy4u3c2OcfM5rZ-12">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4D6YyWOy4u3c2OcfM5rZ-7" value="print sum of user&#39;s two cards&lt;br&gt;&amp;amp;&lt;br&gt;show comp. first card" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="700" y="330" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4D6YyWOy4u3c2OcfM5rZ-9" value="If comp has blackjack i.e. 11+10, comp. won even if user had bj.&lt;br&gt;Else user won." style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4D6YyWOy4u3c2OcfM5rZ-12" value="print(&quot;Type &#39;y&#39; to get another card type &#39;n&#39; to pass.&quot;)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="700" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
